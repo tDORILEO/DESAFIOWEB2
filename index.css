@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.exercicios {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exercicios h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.exercicios a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.exercicios h2, .exercicios h3, .exercicios h4, .exercicios h5, .exercicios h6, .exercicios h7, .exercicios h8, .exercicios h9, .exercicios h10 {
+    margin: 0;
+}
+
+.exercicios p {
+    text-align: center;
+    margin-top: 20px;
+}
+.exercicios h2, 
+.exercicios h3, 
+.exercicios h4, 
+.exercicios h5, 
+.exercicios h6, 
+.exercicios h7, 
+.exercicios h8, 
+.exercicios h9, 
+.exercicios h10 {
+    margin: 0;
+    font-size: 20px;
+    color: #211de7;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+
+.btn-left,
+.btn-right {
+    position: fixed;
+    bottom: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-left {
+    left: 20px;
+}
+
+.btn-right {
+    right: 20px;
+}
